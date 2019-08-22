@@ -15,6 +15,7 @@ before_install:
 
 install:
    - arduino --install-library "Adafruit GFX Library"
+   - arduino --install-library "Adafruit TouchScreen"
 
 script:
    - build_main_platforms
